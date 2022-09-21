@@ -57,6 +57,8 @@ Fall 2022
 
 \noindent Yaqiao (Darcy) Wang \url{darcywang@ucsb.edu}: Office Hours, TBD
 
+\noindent Cyril Wang \url{cyrilwang@ucsb.edu}: Office Hours, TBD
+
 \vskip.15in
 \noindent\textbf{Course Texts} 
 
@@ -146,6 +148,7 @@ PSTAT 120 A-B (probability and math-stat) and 126 (regression). Familiarity with
   \end{enumerate}
 \end{itemize}
 \vskip.15in
+\newpage
 \noindent\textbf{Important Dates:}
 \begin{center} \begin{minipage}{3.8in}
     \begin{flushleft}
