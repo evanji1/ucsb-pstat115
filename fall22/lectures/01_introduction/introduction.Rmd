@@ -132,7 +132,7 @@ file
     + Cloud based rstudio service
     + Log in with your UCSB NetID
 
-- Use [https://tinyurl.com/2hpr9mpj](https://tinyurl.com/2hpr9mpj) to sync new material (BOOKMARK THIS)
+- Use [tinyurl.com/2hpr9mpj](tinyurl.com/2hpr9mpj) to sync new material (BOOKMARK THIS)
   
 - Make sure you can write and compile an [R
   markdown](http://rmarkdown.rstudio.com) (`Rmd`) document online
@@ -402,7 +402,7 @@ ig("images/theory_of_probability.jpg")
 
 ### Perceptions of Probability
 
-```{r, out.width="50%"}
+```{r, out.width="70%"}
 ig("images/perceptions.png")
 ```
 source: https://github.com/zonination/perceptions
