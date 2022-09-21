@@ -1,7 +1,7 @@
 ---
 title: 'PSTAT 115: Bayesian Data Analysis'
 author: "Professor Rodrigo Targino"
-date: '`r Sys.Date()`'
+date: '22-Sep-2022'
 output:
   xaringan::moon_reader:
     css: ['default', "xaringan_style.css"]
@@ -104,9 +104,13 @@ file
 ### Labs and Quizzes
 
 - There will be a handful of "pop" quizzes throughout the quarter.  
+
 - The quizzes will be on Gradescope.  
+
 - You will have 10 minutes to take the quiz any time within 24 hours of the announcement.
+
 - The quizzes will be given on lecture days
+
 - There are no makeups, but the lowest quiz grade will be dropped from your final score.
 
 - Quizzes will be multiple choice and will test your comprehension of the basic concept.
@@ -191,12 +195,6 @@ class: center, middle
 
   + The _frequency_ of an event (in repeated experiments) is the _probability_ of the event
 
---
-
-- Null Hypothesis Significant Testing (NHST) and Confidence Intervals
-    + Frequentist uncertainty premised on imaginary resampling of data
-    + Example: If the null model is true, and I re-run the experiment many times, how often will I reject?
-
 ---
 ### Frequentist probability
 <center>The probability of a coin landing on heads is 50%</center>
@@ -206,21 +204,26 @@ plot(cumsum(rbinom(n, p=0.5, size=1))/(1:n), ylim=c(0,1), type="l", xlab="Flips"
 abline(h="0.5")
 ```
 <center>The long run fraction of heads is 50%</center>
+---
+### Frequentist statistics
+
+<center> What you learned in PSTAT 120B </center>
+<br>
+
+- Null Hypothesis Significant Testing (NHST) and Confidence Intervals
+    + Frequentist uncertainty premised on imaginary resampling of data
+    
+    + Example: If the null model is true, and I re-run the experiment many times, how often will I reject?
 
 ---
 
 ### Confidence intervals
 
 I have a $95\%$ confidence interval for a parameter $\theta$.  What does this mean?
-
 <!-- >- $Pr(l(Y) < \theta < u(Y)\mid \theta) = 0.95$ -->
-
 <!-- >- $Y$ is a random so $l(Y)$ and $u(y)$ is as well! -->
-
 <!-- >- $\theta$ is an unknown constant -->
-
 <!-- + Example: If I re-run the experiment many times what fraction of times will the interval cover the true parameter? -->
-
 ```{r, out.width='55%'}
 prob <- 0.6
 nintervals <- 50
@@ -236,7 +239,6 @@ segments(x0=lower, x1=upper, y0=1:nintervals, y1=1:nintervals, col=ifelse(upper 
 abline(v=prob, col="blue")
 
 ```
-
 We expect $0.05 \times 50 = 2.5$ of the intervals to _not_ cover the true parameter, $p = 0.6$, on average
 
 ---
@@ -244,7 +246,7 @@ We expect $0.05 \times 50 = 2.5$ of the intervals to _not_ cover the true parame
 ### Falsification
 
 ```{r, out.width="60%"}
-ig("../images/blackswan.jpg") ## example 1.2.2 in rethinking
+ig("images/blackswan.jpg") ## example 1.2.2 in rethinking
 
 ## Europeans had only ever seen white, went to australia saw black
 ## We've rejected our null, learned something
@@ -260,7 +262,7 @@ $H_0:$ "All swans are white" vs $H_A:$ "not all swans are white".
 ### Falsification
 
 ```{r, out.width="30%"}
-ig("../images/woodpecker.jpg") ## example 1.2.2.1 reethinking
+ig("images/woodpecker.jpg") ## example 1.2.2.1 reethinking
 
 
 ## measurement / observation , real or spurious, see rethinking book
@@ -278,9 +280,10 @@ $H_0:$ "The Ivory-billed Woodpecker is extinct"
 ### Falsification
 
 ```{r, out.width="60%"}
-ig("../images/blackswan.jpg") ## example 1.2.2 in rethinking
+ig("images/blackswan.jpg") ## example 1.2.2 in rethinking
 ```
-
+<br>
+<br>
 $H_0:$ "Black swans are rare"
 
 ---
@@ -302,8 +305,8 @@ $H_0:$ "Black swans are rare"
 ---
 ### Significance Testing Flowchart
 
-```{r, out.width="60%"}
-ig("../images/frequentist_flow_chart.png")
+```{r, out.width="90%"}
+ig("images/frequentist_flow_chart.png")
 ```
 
 ---
@@ -323,7 +326,7 @@ ig("../images/frequentist_flow_chart.png")
 ### All models are wrong
 
 ```{r, out.width="75%"}
-knitr::include_graphics("../images/all-models-wrong.jpg")
+ig("images/all-models-wrong.jpg")
 ```
 
 [https://en.wikipedia.org/wiki/All_models_are_wrong](Wikipedia)
@@ -343,7 +346,7 @@ abline(h="0.5")
 ###  Win probability
 
 ```{r, out.width="60%"}
-knitr::include_graphics("../images/win_probability.png")
+ig("images/win_probability.png")
 ```
 <center>source: fivethirtyeight.com</center>
 
@@ -351,7 +354,7 @@ knitr::include_graphics("../images/win_probability.png")
 ###  Win probability
 
 ```{r, out.width="70%"}
-knitr::include_graphics("../images/election_win_prob.png")
+ig("images/election_win_prob.png")
 ```
 <center>source: fivethirtyeight.com</center>
 
@@ -360,7 +363,7 @@ knitr::include_graphics("../images/election_win_prob.png")
 ### Bayesian probability
 
 ```{r, out.height= "400px", out.width="300px"}
-knitr::include_graphics("../images/theory_of_probability.jpg")
+ig("images/theory_of_probability.jpg")
 ```
 
 <center>Bruno de Finetti begean his book on probability with:</center>
@@ -400,9 +403,9 @@ knitr::include_graphics("../images/theory_of_probability.jpg")
 ### Perceptions of Probability
 
 ```{r, out.width="50%"}
-ig("../images/perceptions.png")
+ig("images/perceptions.png")
 ```
-
+source: https://github.com/zonination/perceptions
 ---
 
 ### Why Bayesian statistics?
@@ -500,7 +503,7 @@ $$P(\theta \mid y) = \frac{P(y \mid \theta)P(\theta)}{P(y)}\propto P(y \mid \the
 - Get a small random sample of 20 individuals to check for infection
 
 ```{r}
-ig("../images/covid.jpg")
+ig("images/covid.jpg")
 ```
 
 ---
@@ -555,12 +558,14 @@ fig_1_1_b(cols2)
 
 - Hierarchical modeling
 
+- An introduction to probabilistic programming
+
 ---
 ### Assignment
 
 - Check Nectir, bookmark important links
 
-- Lab starts Tuesday (tomorrow)
+- Lab starts next Wednesday (September 28)
 
 - Start reviewing probability cheat sheet!
 
