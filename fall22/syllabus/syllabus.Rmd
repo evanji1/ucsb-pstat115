@@ -51,13 +51,13 @@ Fall 2022
 \vskip.15in
 \noindent\textbf{Office Hours:}
 
-\noindent Professor Targino \url{rodrigotargino@ucsb.edu}: Office Hours, Fridays 3pm
+\noindent Professor Targino \url{rodrigotargino@ucsb.edu}: Office Hours, Fridays 3-4pm
 
-\noindent Lauren Hughes \url{laurenhughes@ucsb.edu}: Office Hours, TBD
+\noindent Lauren Hughes [TA] \url{laurenhughes@ucsb.edu}: Office Hours, Mondays 10-11am
 
-\noindent Yaqiao (Darcy) Wang \url{darcywang@ucsb.edu}: Office Hours, TBD
+\noindent Yaqiao (Darcy) Wang [TA] \url{darcywang@ucsb.edu}: Office Hours, Wednesdays 2:30 - 4:30pm
 
-\noindent Cyril Wang \url{cyrilwang@ucsb.edu}: Office Hours, TBD
+\noindent Cyril Wang [ULA] \url{cyrilwang@ucsb.edu}: Office Hours, Tuesdays 10am-12pm (on Zoom);  Fridays 10am-12pm (in-person)
 
 \vskip.15in
 \noindent\textbf{Course Texts} 

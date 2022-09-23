@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.15)  21 SEP 2022 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.15)  23 SEP 2022 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,25 +543,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 99.
 
-Overfull \hbox (27.44179pt too wide) in paragraph at lines 143--145
+Overfull \hbox (27.44179pt too wide) in paragraph at lines 145--147
 []\OT1/cmr/m/n/10 Optional: Peter Hoff \OT1/cmr/m/it/10 A First Course in Bayes
 ian Statistical Methods\OT1/cmr/m/n/10 ; [][]$https : / / www . springer . com 
 / us / book / 9780387922997$[][]). 
  []
 
 LaTeX Font Info:    Trying to load font information for U+ding on input line 17
-3.
+5.
 (/usr/local/share/miktex-texmf/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ) [1
 
 {/home/rodrigo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
@@ -592,7 +592,7 @@ cm/cmcsc10.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmr10.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on syllabus.pdf (3 pages, 98179 bytes).
+Output written on syllabus.pdf (3 pages, 98582 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
