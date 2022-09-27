@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.15)  23 SEP 2022 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.15)  27 SEP 2022 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,25 +543,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 99.
 
-Overfull \hbox (27.44179pt too wide) in paragraph at lines 145--147
+Overfull \hbox (27.44179pt too wide) in paragraph at lines 146--148
 []\OT1/cmr/m/n/10 Optional: Peter Hoff \OT1/cmr/m/it/10 A First Course in Bayes
 ian Statistical Methods\OT1/cmr/m/n/10 ; [][]$https : / / www . springer . com 
 / us / book / 9780387922997$[][]). 
  []
 
 LaTeX Font Info:    Trying to load font information for U+ding on input line 17
-5.
+6.
 (/usr/local/share/miktex-texmf/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ) [1
 
 {/home/rodrigo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
@@ -579,7 +579,7 @@ Package rerunfilecheck Info: File `syllabus.out' has not changed.
 Here is how much of TeX's memory you used:
  13593 strings out of 480273
  218829 string characters out of 2888280
- 542672 words of memory out of 3000000
+ 543672 words of memory out of 3000000
  31619 multiletter control sequences out of 15000+600000
  470992 words of font info for 34 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -592,9 +592,9 @@ cm/cmcsc10.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmr10.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb></home/rodrigo/.miktex/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on syllabus.pdf (3 pages, 98582 bytes).
+Output written on syllabus.pdf (3 pages, 99037 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
